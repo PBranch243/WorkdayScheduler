@@ -30,4 +30,30 @@ $(".saveBtn").on("click", function(){
     localStorage.setItem(key, value);
 })
 
+//Need to add persistence so that tasks will be loaded from localstorage into the corresponding time blocks when page is opened or refreshed
+
+$("#9").find("textarea").val(localStorage.getItem("9"));
+
+$("#10").find("textarea").val(localStorage.getItem("10"));
+
+$("#11").find("textarea").val(localStorage.getItem("11"));
+
+$("#12").find("textarea").val(localStorage.getItem("12"));
+
+$("#13").find("textarea").val(localStorage.getItem("13"));
+
+$("#14").find("textarea").val(localStorage.getItem("14"));
+
+$("#15").find("textarea").val(localStorage.getItem("15"));
+
+$("#16").find("textarea").val(localStorage.getItem("16"));
+
+$("#17").find("textarea").val(localStorage.getItem("17"));
+
+
+
+
+
+
+
 
