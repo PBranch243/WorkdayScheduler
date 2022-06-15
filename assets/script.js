@@ -1,6 +1,6 @@
 const currentHour = moment().hours();
 const today = moment().format('MM-DD-YYYY');
-
+//adding a line before push
 //console.log("Today is " + today)
 // I have successfully logged the current date, now to display it on the page
 $("#currentDay").text(today);
